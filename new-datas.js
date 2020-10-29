@@ -125,7 +125,7 @@ data({
       local: "Vila Don Patto",
       endereco: "Estrada do vinho, KM 2,5",
       observacao: "Restaurante",
-       rota: "hhttps://www.google.com/maps/dir/-22.9401033,-43.1911669/Vila+Don+Patto+-+Estrada+do+Vinho,+KM+2,5+-+Jardim+Villaca,+S%C3%A3o+Roque+-+SP,+18145-002/@-22.9904858,-47.4070582,7z/data=!3m1!4b1!4m16!1m6!3m5!1s0x0:0x8e4dae5825ff3ceb!2sVila+Don+Patto!8m2!3d-23.5633023!4d-47.1346533!4m8!1m1!4e1!1m5!1m1!1s0x94cf0d2b14a1006d:0x8e4dae5825ff3ceb!2m2!1d-47.1346533!2d-23.5633023",       
+       rota: "https://www.google.com/maps/dir/-22.9401033,-43.1911669/Vila+Don+Patto+-+Estrada+do+Vinho,+KM+2,5+-+Jardim+Villaca,+S%C3%A3o+Roque+-+SP,+18145-002/@-22.9904858,-47.4070582,7z/data=!3m1!4b1!4m16!1m6!3m5!1s0x0:0x8e4dae5825ff3ceb!2sVila+Don+Patto!8m2!3d-23.5633023!4d-47.1346533!4m8!1m1!4e1!1m5!1m1!1s0x94cf0d2b14a1006d:0x8e4dae5825ff3ceb!2m2!1d-47.1346533!2d-23.5633023",       
       coordenadas: {
         longitude: -23.563056,
         latitude: -47.134621,
