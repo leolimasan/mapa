@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Audi EtronMap</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="apple-mobile-web-app-title" content="" />
+    <meta name="application-name" content="" />
+    <style>
+      @font-face {
+        font-family: "AudiTypeV03Bold";
+        src: url("./assets/fonts/AudiTypeV03-Bold.ttf") format("truetype"),
+          url("./assets/fonts/AudiTypeV03-Bold.woff") format("woff"),
+          url("./assets/fonts/AudiTypeV03-Bold.eot") format("eot");
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: "AudiTypeV03Normal";
+        src: url("./assets/fonts/AudiTypeV03-Normal.ttf") format("truetype"),
+          url("./assets/fonts/AudiTypeV03-Normal.woff") format("woff"),
+          url("./assets/fonts/AudiTypeV03-Normal.eot") format("eot");
+        font-style: normal;
+        font-display: swap;
+      }
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-family: "AudiTypeV03Normal", sans-serif;
+      }
+      .map {
+        height: 100%;
+      }
+      .info {
+        width: 100%;
+        padding-bottom: 2rem;
+      }
+      p {
+        border-bottom: 1px solid #e5e5e5;
+        padding: 0.5rem 1rem;
+      }
+        a.tracar-rota {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 0.5rem 1rem;
+    text-decoration: none !important;
+    color: #467285;
+}      
+      span {
+        font-weight: bold;
+      }
+      h1 {
+        border-bottom: 1px solid #e5e5e5;
+        margin-bottom: 0.7rem;
+        font-family: "AudiTypeV03Bold", sans-serif;
+      }
+      .header-modal {
+        background-color: #e5e5e5;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.5rem 0;
+      }
+
+      .header-modal > img {
+        width: 50px;
+        height: 50px;
+        margin-left: 0.5rem;
+      }
+
+      .modal {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 1rem;
+        left: 1rem;
+        z-index: 2000;
+        width: 380px;
+        min-width: 300px;
+        background: #f2f2f2;
+        display: none;
+        border-radius: 1rem;
+        animation: modal 0.3s;
+        box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.3);
+      }
+      @keyframes modal {
+        from {
+          opacity: 0;
+          transform: translate3d(0, -30px, 0);
+        }
+        to {
+          opacity: 1;
+          transform: translate3d(0, 0, 0);
+        }
+      }
+      .modal.show {
+        display: flex;
+      }
+      .close {
+        top: 0;
+        right: 0;
+        border: none;
+        background: none;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        font-size: 1.2rem;
+        outline: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+    <section class="map" id="map" data-js="map"></section>
+      
+    <script type="text/javascript">
+      var map;
+      var InfoObj = [];
+      var centerCords = {
+        lat: -19.9632,
+        lng: -43.940267,
+      };
+        
+      function traceRouteMap() {
+    var mapElement = document.getElementById('google-map');
+    var directionsService = new google.maps.DirectionsService();
+    var startLatLng = new google.maps.LatLng(-29.687306,-53.815477);
+    var directionsDisplay= new google.maps.DirectionsRenderer();
+    var geocoder = new google.maps.Geocoder();
+    var markers = [];
+    var center;
+    var mapOptions = {
+        zoom: 12,
+        center: startLatLng,
+        scrollwheel: false
+    };
+    var map = new google.maps.Map(mapElement, mapOptions);
+    directionsDisplay.setMap(map);
+    directionsDisplay.setOptions({ suppressMarkers: true });
+    var marker = new google.maps.Marker({
+        map: map,
+        draggable: false,
+        animation: google.maps.Animation.DROP,
+        position: startLatLng,
+        icon: "/static/images/pin_map.png"
+    });
+
+    //Add marker to Push Array to count after route show
+    markers.push(marker);
+
+    //Trigger Form Submit
+    $('#google-form').on('submit', function() {
+        event.preventDefault();
+        var address = $('#google-address').val();
+
+        //Get LatLng based on address entered
+        geocoder.geocode( { 'address': address}, function(results, status) {
+            //If get LatLng based on address
+            if (results.length) {
+                var request = {
+                    origin      : results[0].geometry.location,
+                    destination : startLatLng,
+                    travelMode  : google.maps.TravelMode.DRIVING
+                };
+                directionsService.route(request, function(result, status) {
+                    // IF OK and have Route to show
+                    if (status == google.maps.DirectionsStatus.OK) {
+                        directionsDisplay.setDirections(result);
+                        if(markers.length > 1) {
+                            markers[1].setMap(null);
+                            markers.splice(1,1);
+                        }
+                        var marker2 = new google.maps.Marker({
+                            position: result.routes[0].legs[0].start_location,
+                            map: map,
+                            icon: '/static/images/pin_map.png'
+                        });
+                        markers.push(marker2);
+                        $('.retorno-mapa').html('');
+                    } else {
+                        $('.retorno-mapa').html('Não foi possível montar um trajeto.');
+                    }
+                });
+
+            } else {
+                $('.retorno-mapa').html('Ocorreu um problema, reveja seu endereço ou tente novamente.');
+            }
+        });
+        return false;
+    });
+
+
+    google.maps.event.addDomListener(window, "resize", function() {
+        var center = map.getCenter();
+        google.maps.event.trigger(map, "resize");
+        map.setCenter(center);
+    });
+
+}
+
+function loadScript(callBack) {
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp' +
+        '&signed_in=true&language=pt-BR&callback='+callBack;
+    document.body.appendChild(script);
+}
+
+
+if($('#google-map').length) {
+    window.onload = loadScript('traceRouteMap');
+}  
+
+      function initMap() {
+        map = new google.maps.Map(document.querySelector("[data-js='map']"), {
+          zoom: 6.5,
+          center: centerCords,
+        });
+
+        var script = document.createElement("script");
+        script.src = "new-datas.js";
+        document.getElementsByTagName("head")[0].appendChild(script);
+
+        window.data = function (results) {
+          for (var i = 0; i < results.datas.length; i++) {
+            var contentString = `
+            <p><span>Região:</span> ${results.datas[i].regiao}<br /></p>
+            <p><span>Estado:</span> ${results.datas[i].estado}<br /></p>
+            <p><span>Cidade:</span> ${results.datas[i].nome}<br /></p>
+            <p><span>Local:</span> ${results.datas[i].local}<br /></p>
+            <p><span>Endereço:</span> ${results.datas[i].endereco}<br /></p>
+            <p><span>Observação:</span> ${results.datas[i].observacao}<br />
+            <p><span>Como Chegar:<a class="tracar-rota" href="${results.datas[i].rota}">Traçar Rota</a></p>
+            `;
+
+            function startModal(modalClass, contentString) {
+              const modal = document.querySelector(".modal");
+              modal.classList.add("show");
+
+              var divNew = document.createElement("div");
+              var res = (divNew.innerHTML = contentString);
+
+              document.querySelector(".info").innerHTML = res;
+
+              modal.addEventListener("click", (e) => {
+                if (e.target.className === "close") {
+                  modal.classList.remove("show");
+                }
+              });
+            }
+
+            var coords = results.datas[i].coordenadas;
+            var latLng = new google.maps.LatLng(
+              coords.longitude,
+              coords.latitude
+            );
+
+            var marker = new google.maps.Marker({
+              position: latLng,
+              icon: "./assets/images/pin-carregadores.png",
+              map: map,
+            });
+
+            const infowindow = new google.maps.InfoWindow({
+              content: contentString,
+            });
+
+            google.maps.event.addListener(
+              marker,
+              "click",
+              (function (marker, contentString) {
+                return function () {
+                  startModal("modal", contentString);
+                };
+              })(marker, contentString)
+            );
+          }
+        };
+      }
+
+      window.onload = function () {
+        initMap();
+      };
+    </script>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdpRjL6GfbAhC-x-Kk5N-m-cVgQVAU4Jw&callback=initMap&libraries=&v=weekly"
+    ></script>
+
+    <div class="modal" data-js="modal-info">
+      <section class="header-modal">
+        <img src="assets/images/pin-carregadores.png" title="" alt="" />
+        <h1>Informações</h1>
+        <button class="close">X</button>
+      </section>
+      <section class="info"></section>
+    </div>
+  </body>
+</html>
