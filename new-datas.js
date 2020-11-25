@@ -1,6 +1,45 @@
 data({
   datas: [
     {
+      regiao: "Nordeste",
+      estado: "Pernambuco",
+      nome: "Camaragibe",
+      local: "Camará Shopping",
+      endereco: "R. Manoel Honorato da Costa, 555",
+      observacao: "Shopping",
+      rota: "https://www.google.com/maps/dir//BR-356,+2500+-+Santa+L%C3%BAcia,+Belo+Horizonte+-+MG,+30320-901/@-19.9742624,-43.9467616,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0xa697f7f1555555:0x8088c7bf3fedc634!2m2!1d-43.9445729!2d-19.9742624",
+      coordenadas: {
+        longitude: -8.0162537,
+        latitude: -43.940267,
+      },
+    },
+    {
+      regiao: "Nordeste",
+      estado: "Pernambuco",
+      nome: "Ipojuca",
+      local: "Nannai Resort & Spa",
+      endereco: "Rodovia PE 09",
+      observacao: "Hotel",
+      rota: "https://www.google.com/maps/dir//Nannai+Resort+%26+Spa+-+Rodovia+PE+09,+Ipojuca+-+PE,+55590-000/@-8.4333252,-34.9827926,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x7aa92294f9cd797:0x3b48e3e622f8d3b!2m2!1d-34.9806039!2d-8.4333252",
+      coordenadas: {
+        longitude: -8.4333252,
+        latitude: -34.9827926,
+      },
+    },
+    {
+      regiao: "Nordeste",
+      estado: "Pernambuco",
+      nome: "Recife",
+      local: "Shopping Recife",
+      endereco: "R. Padre Carapuceiro, 777",
+      observacao: "Shopping",
+      rota: "https://www.google.com/maps/dir//Shopping+Recife+-+R.+Padre+Carapuceiro,+777+-+Boa+Viagem,+Recife+-+PE,+51020-900/@-8.1190716,-34.9072695,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x7ab1fb28e8a1b79:0x84e562c3798725e7!2m2!1d-34.9050808!2d-8.1190716",
+      coordenadas: {
+        longitude: -8.1190716,
+        latitude: -34.9072695,
+      },
+    },
+    {
       regiao: "Sudeste",
       estado: "Minas Gerais",
       nome: "Belo Horizonte",
@@ -20,12 +59,12 @@ data({
       local: "Pousada Pequena Tiradentes",
       endereco: "Av. Gov. Israel Pinheiro, 670",
       observacao: "Hotel",
-      rota: "https://www.google.com/maps/dir//Av.+Gov.+Israel+Pinheiro,+670,+Tiradentes+-+MG,+36325-000/@-21.1280198,-44.1733059,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0xa1c0b2df29634f:0x20c575ff95a4142e!2m2!1d-44.1711172!2d-21.1280248",  
+      rota: "https://www.google.com/maps/dir//Av.+Gov.+Israel+Pinheiro,+670,+Tiradentes+-+MG,+36325-000/@-21.1280198,-44.1733059,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0xa1c0b2df29634f:0x20c575ff95a4142e!2m2!1d-44.1711172!2d-21.1280248",
       coordenadas: {
         longitude: -21.127335,
         latitude: -44.171995,
       },
-          
+
     },
     {
       regiao: "Sudeste",
@@ -34,7 +73,7 @@ data({
       local: "Casas Branca Hotel & SPA",
       endereco: "R. Morro do Humaitá, 10",
       observacao: "Hotel",
-      rota: "https://www.google.com/maps/dir/-22.9401139,-43.1911728/R.+Morro+do+Humait%C3%A1,+10+-+Lot.+Triangulo+de+Buzios,+B%C3%BAzios+-+RJ,+28950-000/@-22.8223198,-43.1093972,9z/data=!3m1!4b1!4m17!1m7!3m6!1s0x96550b12c932c9:0x992b12233183912b!2sR.+Morro+do+Humait%C3%A1,+10+-+Lot.+Triangulo+de+Buzios,+B%C3%BAzios+-+RJ,+28950-000!3b1!8m2!3d-22.7521839!4d-41.8836382!4m8!1m1!4e1!1m5!1m1!1s0x96550b12c932c9:0x992b12233183912b!2m2!1d-41.8836382!2d-22.7521839",        
+      rota: "https://www.google.com/maps/dir/-22.9401139,-43.1911728/R.+Morro+do+Humait%C3%A1,+10+-+Lot.+Triangulo+de+Buzios,+B%C3%BAzios+-+RJ,+28950-000/@-22.8223198,-43.1093972,9z/data=!3m1!4b1!4m17!1m7!3m6!1s0x96550b12c932c9:0x992b12233183912b!2sR.+Morro+do+Humait%C3%A1,+10+-+Lot.+Triangulo+de+Buzios,+B%C3%BAzios+-+RJ,+28950-000!3b1!8m2!3d-22.7521839!4d-41.8836382!4m8!1m1!4e1!1m5!1m1!1s0x96550b12c932c9:0x992b12233183912b!2m2!1d-41.8836382!2d-22.7521839",
       coordenadas: {
         longitude: -22.751956,
         latitude: -41.883627,
@@ -47,7 +86,7 @@ data({
       local: "Campo Olímpico de Golfe",
       endereco: "Av. Gen. Moisés Castelo Branco Filho, 700",
       observacao: "Clube",
-      rota: "https://www.google.com/maps/dir//Av.+Gen.+Mois%C3%A9s+Castelo+Branco+Filho,+700+-+Barra+da+Tijuca,+Rio+de+Janeiro+-+RJ,+22793-365/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x9bdb78933eb073:0x739a9f748f2d62af?sa=X&ved=2ahUKEwi_v5-gp9rsAhW4GLkGHcBZC2cQwwUwAHoECAsQAw",        
+      rota: "https://www.google.com/maps/dir//Av.+Gen.+Mois%C3%A9s+Castelo+Branco+Filho,+700+-+Barra+da+Tijuca,+Rio+de+Janeiro+-+RJ,+22793-365/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x9bdb78933eb073:0x739a9f748f2d62af?sa=X&ved=2ahUKEwi_v5-gp9rsAhW4GLkGHcBZC2cQwwUwAHoECAsQAw",
       coordenadas: {
         longitude: -23.003805,
         latitude: -43.40044,
@@ -60,7 +99,7 @@ data({
       local: "Iate Clube Rio de Janeiro",
       endereco: "Av. Pasteur, 333",
       observacao: "Clube",
-       rota: "https://www.google.com/maps/dir//Av.+Pasteur,+333+-+Urca,+Rio+de+Janeiro+-+RJ,+22290-250/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x99801d8c435df7:0xb12984ab1fbf3f0e?sa=X&ved=2ahUKEwiwy8Gsp9rsAhWXK7kGHRdYBjcQwwUwAHoECA4QAg",       
+       rota: "https://www.google.com/maps/dir//Av.+Pasteur,+333+-+Urca,+Rio+de+Janeiro+-+RJ,+22290-250/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x99801d8c435df7:0xb12984ab1fbf3f0e?sa=X&ved=2ahUKEwiwy8Gsp9rsAhWXK7kGHRdYBjcQwwUwAHoECA4QAg",
       coordenadas: {
         longitude: -22.951303,
         latitude: -43.173217,
@@ -73,7 +112,7 @@ data({
       local: "Comercial Alphaville",
       endereco: "Calçada Flor de Lótus, 78",
       observacao: "Comércio",
-       rota: "https://www.google.com/maps/dir//Cal%C3%A7ada+Fl%C3%B4r+de+L%C3%B3tus,+78+-+Alphaville+Comercial,+Barueri+-+SP,+06453-002/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x94cf023a67ba9823:0x6bd5a09840f549f3?sa=X&ved=2ahUKEwjO--O2p9rsAhUlF7kGHUm_A3QQwwUwAHoECAsQAg",       
+       rota: "https://www.google.com/maps/dir//Cal%C3%A7ada+Fl%C3%B4r+de+L%C3%B3tus,+78+-+Alphaville+Comercial,+Barueri+-+SP,+06453-002/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x94cf023a67ba9823:0x6bd5a09840f549f3?sa=X&ved=2ahUKEwjO--O2p9rsAhUlF7kGHUm_A3QQwwUwAHoECAsQAg",
       coordenadas: {
         longitude: -23.496492,
         latitude: -46.853245,
@@ -86,7 +125,7 @@ data({
       local: "Autovagas - Grand Hyatt",
       endereco: "Avenida das Nações Unidas, 13301",
       observacao: "Hotel",
-       rota: "https://www.google.com/maps/dir//Av.+das+Na%C3%A7%C3%B5es+Unidas,+13301+-+Cidade+Mon%C3%A7%C3%B5es,+S%C3%A3o+Paulo+-+SP,+04575-000/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x94ce50cd28af6fa1:0xa7e923048cc4b3be?sa=X&ved=2ahUKEwiKm_nHp9rsAhUsDrkGHRQsAxgQwwUwAHoECAsQAg",       
+       rota: "https://www.google.com/maps/dir//Av.+das+Na%C3%A7%C3%B5es+Unidas,+13301+-+Cidade+Mon%C3%A7%C3%B5es,+S%C3%A3o+Paulo+-+SP,+04575-000/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x94ce50cd28af6fa1:0xa7e923048cc4b3be?sa=X&ved=2ahUKEwiKm_nHp9rsAhUsDrkGHRQsAxgQwwUwAHoECAsQAg",
       coordenadas: {
         longitude: -23.616234,
         latitude: -46.698814,
@@ -99,7 +138,7 @@ data({
       local: "Autovagas - Sala São Paulo",
       endereco: "Praça Júlio Prestes, 16",
       observacao: "Entretenimento",
-        rota: "https://www.google.com/maps/dir/-22.9401033,-43.1911669/Pra%C3%A7a+J%C3%BAlio+Prestes,+16+-+Campos+El%C3%ADseos,+S%C3%A3o+Paulo+-+SP,+01218-020/@-22.9783497,-47.4908632,7z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x94ce585c8d61e5f7:0xc37392c860230ea!2m2!1d-46.6397597!2d-23.534622",      
+        rota: "https://www.google.com/maps/dir/-22.9401033,-43.1911669/Pra%C3%A7a+J%C3%BAlio+Prestes,+16+-+Campos+El%C3%ADseos,+S%C3%A3o+Paulo+-+SP,+01218-020/@-22.9783497,-47.4908632,7z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x94ce585c8d61e5f7:0xc37392c860230ea!2m2!1d-46.6397597!2d-23.534622",
       coordenadas: {
         longitude: -23.533948,
         latitude: -46.639693,
@@ -112,10 +151,62 @@ data({
       local: "WT Morumbi",
       endereco: "Avenida das Nações Unidas, 14261",
       observacao: "Carregador no Valet",
-        rota: "https://www.google.com/maps/dir//Av.+das+Na%C3%A7%C3%B5es+Unidas,+14261+-+Vila+Gertrudes,+S%C3%A3o+Paulo+-+SP,+04794-000/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x94ce51446aba18eb:0xc4ddd731450221?sa=X&ved=2ahUKEwiz2d3rp9rsAhVAIbkGHerGCO4QwwUwAHoECAsQAg",      
+        rota: "https://www.google.com/maps/dir//Av.+das+Na%C3%A7%C3%B5es+Unidas,+14261+-+Vila+Gertrudes,+S%C3%A3o+Paulo+-+SP,+04794-000/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x94ce51446aba18eb:0xc4ddd731450221?sa=X&ved=2ahUKEwiz2d3rp9rsAhVAIbkGHerGCO4QwwUwAHoECAsQAg",
       coordenadas: {
         longitude: -23.623575,
         latitude: -46.701978,
+      },
+    },
+    {
+      regiao: "Sudeste",
+      estado: "São Paulo",
+      nome: "Campos do Jordão",
+      local: "Grande Hotel Campos do Jordão",
+      endereco: "Av. Frei Orestes Girardi, 3549",
+      observacao: "Hotel",
+       rota: "https://www.google.com/maps/dir//Grande+Hotel+Campos+DO+Jordao+-+Av.+Frei+Orestes+Girardi,+3549,+Campos+do+Jord%C3%A3o+-+SP,+12460-000/@-22.7203598,-45.5791387,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94cc89da02a79cfb:0xdf95bc4b04f1dd90!2m2!1d-45.57695!2d-22.7203598",
+      coordenadas: {
+        longitude: -22.7203598,
+        latitude: -45.5791387,
+      },
+    },
+    {
+      regiao: "Sudeste",
+      estado: "São Paulo",
+      nome: "São Paulo",
+      local: "Autovagas - Hotel Pestana",
+      endereco: "R. Tutóia, 77",
+      observacao: "Hotel",
+       rota: "https://www.google.com/maps/dir//R.+Tut%C3%B3ia,+77+-+Para%C3%ADso,+S%C3%A3o+Paulo+-+SP,+04007-000/@-23.572282,-46.6553588,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94ce59c04ec631c7:0x27efd91bc8e69146!2m2!1d-46.6531701!2d-23.5722869",
+      coordenadas: {
+        longitude: -23.572282,
+        latitude: -46.6553588,
+      },
+    },
+    {
+      regiao: "Sudeste",
+      estado: "São Paulo",
+      nome: "São Paulo",
+      local: "e-Business Park",
+      endereco: "Rua Werner Von Siemens, 111",
+      observacao: "Complexo Empresarial",
+       rota: "https://www.google.com/maps/dir//eBusiness+Park+-+Av.+Emb.+Macedo+Soares,+10735+-+%C3%81gua+Branca,+S%C3%A3o+Paulo+-+SP,+05095-035/@-23.5098906,-46.7105831,18z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94cef93bfe7be6d1:0x199194b9e9594dfa!2m2!1d-46.7094888!2d-23.5098906",
+      coordenadas: {
+        longitude: -23.5098906,
+        latitude: -46.7105831,
+      },
+    },
+    {
+      regiao: "Sudeste",
+      estado: "São Paulo",
+      nome: "São Pedro",
+      local: "Grande Hotel São Pedro",
+      endereco: "Pq. Dr. Otávio de Moura Andrade, s/n",
+      observacao: "Hotel",
+       rota: "https://www.google.com/maps/dir//Grande+Hotel+S%C3%A3o+Pedro+-+Doutor+Ot%C3%A1vio+de+Moura+Andrade+s%2Fn+Centro,+R.+Ant%C3%B4nio+Feij%C3%B3+-+Parque,+%C3%81guas+de+S%C3%A3o+Pedro+-+SP,+13525-000/@-22.5971376,-47.8847266,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c7b1731f69af01:0xcc40f34eb1fa312f!2m2!1d-47.8825379!2d-22.5971376",
+      coordenadas: {
+        longitude: -22.5971376,
+        latitude: -47.8847266,
       },
     },
     {
@@ -125,20 +216,33 @@ data({
       local: "Vila Don Patto",
       endereco: "Estrada do vinho, KM 2,5",
       observacao: "Restaurante",
-       rota: "https://www.google.com/maps/dir/-22.9401033,-43.1911669/Vila+Don+Patto+-+Estrada+do+Vinho,+KM+2,5+-+Jardim+Villaca,+S%C3%A3o+Roque+-+SP,+18145-002/@-22.9904858,-47.4070582,7z/data=!3m1!4b1!4m16!1m6!3m5!1s0x0:0x8e4dae5825ff3ceb!2sVila+Don+Patto!8m2!3d-23.5633023!4d-47.1346533!4m8!1m1!4e1!1m5!1m1!1s0x94cf0d2b14a1006d:0x8e4dae5825ff3ceb!2m2!1d-47.1346533!2d-23.5633023",       
+       rota: "https://www.google.com/maps/dir/-22.9401033,-43.1911669/Vila+Don+Patto+-+Estrada+do+Vinho,+KM+2,5+-+Jardim+Villaca,+S%C3%A3o+Roque+-+SP,+18145-002/@-22.9904858,-47.4070582,7z/data=!3m1!4b1!4m16!1m6!3m5!1s0x0:0x8e4dae5825ff3ceb!2sVila+Don+Patto!8m2!3d-23.5633023!4d-47.1346533!4m8!1m1!4e1!1m5!1m1!1s0x94cf0d2b14a1006d:0x8e4dae5825ff3ceb!2m2!1d-47.1346533!2d-23.5633023",
       coordenadas: {
         longitude: -23.563056,
         latitude: -47.134621,
       },
     },
     {
+      regiao: "Sudeste",
+      estado: "São Paulo",
+      nome: "São Sebastião",
+      local: "Hotel Maui Maresias",
+      endereco: "R. Passagem, 14 - Praia de Maresias",
+      observacao: "Hotel",
+       rota: "https://www.google.com/maps/dir//Hotel+Maui+Maresias+-+R.+Passagem,+14+-+n%C2%BA+99+-+Praia+de+Maresias,+S%C3%A3o+Sebasti%C3%A3o+-+SP,+11628-115/@-23.7907563,-45.5760718,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94d280e3fd6978b7:0x596d2fc88def40c5!2m2!1d-45.5738831!2d-23.7907563",
+      coordenadas: {
+        longitude: -23.7907563,
+        latitude: -45.5760718,
+      },
+    },
+    {
       regiao: "Sul",
       estado: "Paraná",
       nome: "Curitiba",
-      local: "4 Points by Sheraton Curitibao",
+      local: "4 Points by Sheraton Curitiba",
       endereco: "Av. Sete de Setembro, 4211",
       observacao: "Hotel",
-       rota: "https://www.google.com/maps/dir//Four+Points+by+Sheraton+Curitiba+-+Av.+Sete+de+Setembro,+4211+-+%C3%81gua+Verde,+Curitiba+-+PR,+80250-210/@-25.442768,-49.279137,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94dce47752432af3:0x1569ac2111587a86!2m2!1d-49.279137!2d-25.442768",       
+       rota: "https://www.google.com/maps/dir//Four+Points+by+Sheraton+Curitiba+-+Av.+Sete+de+Setembro,+4211+-+%C3%81gua+Verde,+Curitiba+-+PR,+80250-210/@-25.442768,-49.279137,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94dce47752432af3:0x1569ac2111587a86!2m2!1d-49.279137!2d-25.442768",
       coordenadas: {
         longitude: -25.442535,
         latitude: -49.279137,
@@ -151,7 +255,7 @@ data({
       local: "Festval Brigadeiro",
       endereco: "R. Bgr. Franco, 641",
       observacao: "Supermercado",
-       rota: "https://www.google.com/maps/dir//BR-356,+2500+-+Santa+L%C3%BAcia,+Belo+Horizonte+-+MG,+30320-901/@-19.9742624,-43.9467616,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0xa697f7f1555555:0x8088c7bf3fedc634!2m2!1d-43.9445729!2d-19.9742624",       
+       rota: "https://www.google.com/maps/dir//BR-356,+2500+-+Santa+L%C3%BAcia,+Belo+Horizonte+-+MG,+30320-901/@-19.9742624,-43.9467616,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0xa697f7f1555555:0x8088c7bf3fedc634!2m2!1d-43.9445729!2d-19.9742624",
       coordenadas: {
         longitude: -25.427324,
         latitude: -49.284495,
@@ -164,7 +268,7 @@ data({
       local: "Festval Alphaville",
       endereco: "Rua Jaguariaíva, 92",
       observacao: "Nenhuma no Momento",
-       rota: "https://www.google.com/maps/dir/-22.9400852,-43.1911571/Rua+Jaguaria%C3%ADva,+92+-+Alphaville+Graciosa,+Pinhais+-+PR,+83327-076/@-23.8562689,-50.669312,6z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x94dcef21b208e451:0xa3c50cb8536cbc48!2m2!1d-49.165397!2d-25.393437",       
+       rota: "https://www.google.com/maps/dir/-22.9400852,-43.1911571/Rua+Jaguaria%C3%ADva,+92+-+Alphaville+Graciosa,+Pinhais+-+PR,+83327-076/@-23.8562689,-50.669312,6z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x94dcef21b208e451:0xa3c50cb8536cbc48!2m2!1d-49.165397!2d-25.393437",
       coordenadas: {
         longitude: -25.392892,
         latitude: -49.16585,
@@ -177,7 +281,7 @@ data({
       local: "Costão do Santinho",
       endereco: "Estrada Vereador Onildo Lemos, 25051",
       observacao: "Hotel",
-       rota: "https://www.google.com/maps/dir//Estr.+Ver.+Onildo+Lemos,+Florian%C3%B3polis+-+SC,+88058-700/@-27.4537998,-48.382715,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x95276a6a69aaac03:0x5c598b5a1f933995!2m2!1d-48.3805263!2d-27.4537998",       
+       rota: "https://www.google.com/maps/dir//Estr.+Ver.+Onildo+Lemos,+Florian%C3%B3polis+-+SC,+88058-700/@-27.4537998,-48.382715,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x95276a6a69aaac03:0x5c598b5a1f933995!2m2!1d-48.3805263!2d-27.4537998",
       coordenadas: {
         longitude: -27.464493,
         latitude: -48.381264,
@@ -190,10 +294,36 @@ data({
       local: "Shopping Beira Mar",
       endereco: "R. Bocaiúva, 2468",
       observacao: "Shopping",
-        rota: "https://www.google.com/maps/dir/-22.9400911,-43.1911315/R.+Bocai%C3%BAva,+2468+-+Centro,+Florian%C3%B3polis+-+SC,+88015-530/@-24.958904,-50.6782335,6z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x95273816b757726f:0xd81d55d6572585f5!2m2!1d-48.5450085!2d-27.5849156",      
+        rota: "https://www.google.com/maps/dir/-22.9400911,-43.1911315/R.+Bocai%C3%BAva,+2468+-+Centro,+Florian%C3%B3polis+-+SC,+88015-530/@-24.958904,-50.6782335,6z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x95273816b757726f:0xd81d55d6572585f5!2m2!1d-48.5450085!2d-27.5849156",
       coordenadas: {
         longitude: -27.584662,
         latitude: -48.544971,
+      },
+    },
+    {
+      regiao: "Sul",
+      estado: "Santa Catarina",
+      nome: "Florianópolis",
+      local: "Open Shopping - Square SC",
+      endereco: "Rod. José Carlos Daux, 5500",
+      observacao: "Shopping",
+        rota: "https://www.google.com/maps/dir//Rod.+Jos%C3%A9+Carlos+Daux,+5500+-+Saco+Grande,+Florian%C3%B3polis+-+SC,+88032-005/@-27.5348369,-48.5114596,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x9527470d82c23411:0xa15b8130e8604f9d!2m2!1d-48.5090335!2d-27.5345032",
+      coordenadas: {
+        longitude: -27.5348369,
+        latitude: -48.5114596,
+      },
+    },
+    {
+      regiao: "Sul",
+      estado: "Santa Catarina",
+      nome: "Florianópolis",
+      local: "Infinity Blue Resort & Spa",
+      endereco: "Av. Ruy Barbosa, 1000 - Praia dos Amores",
+      observacao: "Hotel",
+        rota: "https://www.google.com/maps/dir//Infinity+Blue+Resort+%26+Spa+-+Av.+Ruy+Barbosa,+1000+-+Praia+dos+Amores,+Balne%C3%A1rio+Cambori%C3%BA+-+SC,+88331-510/@-26.9669616,-48.6314983,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94d8c9f230ae6ac1:0x74688c8530afb465!2m2!1d-48.6293096!2d-26.9669616",
+      coordenadas: {
+        longitude: -26.9669616,
+        latitude: -48.6314983,
       },
     },
   ],
