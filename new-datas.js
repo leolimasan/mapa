@@ -430,5 +430,31 @@ data({
         latitude: -48.6314983,
       },
     },
+    {
+      regiao: "Sul",
+      estado: "Rio Grande do Sul",
+      nome: "Passo Fundo",
+      local: "Shopping Passo Fundo",
+      endereco: "Av. Presidente Vagas, 1610",
+      observacao: "Shopping",
+        rota: "https://www.google.com/maps/dir//Av.+Pres.+Vargas,+1610+-+S%C3%A3o+Cristovao,+Passo+Fundo+-+RS,+99070-000/@-28.2710284,-52.3876476,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94e2bf95a932fc15:0xae6070a80020ffc1!2m2!1d-52.3854589!2d-28.2710284",
+      coordenadas: {
+        longitude: -28.2710284,
+        latitude: -52.3876476,
+      },
+    },
+    {
+      regiao: "Sul",
+      estado: "Rio Grande do Sul",
+      nome: "Porto Alegre",
+      local: "Pátio 24",
+      endereco: "R. 24 de Outubro, 1454A - Auxiliadora",
+      observacao: "Shopping",
+        rota: "https://www.google.com/maps/dir//R.+24+de+Outubro,+1454a+-+Auxiliadora,+Porto+Alegre+-+RS,+90510-001/@-30.0219085,-51.1966162,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x951979ced83e87fb:0x8dd860e77d4f8cb8!2m2!1d-51.1944275!2d-30.0219085",
+      coordenadas: {
+        longitude: -30.0219085,
+        latitude: -51.1966162,
+      },
+    },
   ],
 });
