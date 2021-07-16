@@ -22,7 +22,7 @@ data({
       observacao: "Hotel",
       rota: "https://www.google.com/maps/dir//Nannai+Resort+%26+Spa+-+Rodovia+PE+09,+Ipojuca+-+PE,+55590-000/@-8.4333252,-34.9827926,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x7aa92294f9cd797:0x3b48e3e622f8d3b!2m2!1d-34.9806039!2d-8.4333252",
       coordenadas: {
-        longitude: -8.4333252,,
+        longitude: -8.4333252,
         latitude: -34.9806039,
       },
     },
