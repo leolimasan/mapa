@@ -10,7 +10,7 @@ data({
       rota: "https://www.google.com/maps/dir//BR-356,+2500+-+Santa+L%C3%BAcia,+Belo+Horizonte+-+MG,+30320-901/@-19.9742624,-43.9467616,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0xa697f7f1555555:0x8088c7bf3fedc634!2m2!1d-43.9445729!2d-19.9742624",
       coordenadas: {
         longitude: -8.0162537,
-        latitude: -43.940267,
+        latitude: -34.9786381,
       },
     },
     {
@@ -22,8 +22,8 @@ data({
       observacao: "Hotel",
       rota: "https://www.google.com/maps/dir//Nannai+Resort+%26+Spa+-+Rodovia+PE+09,+Ipojuca+-+PE,+55590-000/@-8.4333252,-34.9827926,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x7aa92294f9cd797:0x3b48e3e622f8d3b!2m2!1d-34.9806039!2d-8.4333252",
       coordenadas: {
-        longitude: -8.4333252,
-        latitude: -34.9827926,
+        longitude: -8.4333252,,
+        latitude: -34.9806039,
       },
     },
     {
@@ -35,7 +35,7 @@ data({
       observacao: "Shopping",
       rota: "https://www.google.com/maps/dir//Shopping+Recife+-+R.+Padre+Carapuceiro,+777+-+Boa+Viagem,+Recife+-+PE,+51020-900/@-8.1190716,-34.9072695,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x7ab1fb28e8a1b79:0x84e562c3798725e7!2m2!1d-34.9050808!2d-8.1190716",
       coordenadas: {
-        longitude: -8.1190716,
+        longitude: -8.1190663,
         latitude: -34.9072695,
       },
     },
@@ -48,8 +48,8 @@ data({
       observacao: "Shopping",
       rota: "https://www.google.com/maps/dir//R.+Agamenon+Magalh%C3%A3es,+444+-+Itanhang%C3%A1,+Rio+de+Janeiro+-+RJ,+22641-110/@-22.9947421,-43.3016427,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x9bd72de2492fc5:0xd46bd5137e6ed68a!2m2!1d-43.299454!2d-22.9947471",
       coordenadas: {
-        longitude: -22.9947421,
-        latitude: -43.3016427,
+        longitude: -8.2782235,
+        latitude: -35.9742038,
       },
     },
      {
@@ -61,8 +61,8 @@ data({
       observacao: "Hotel",
       rota: "https://www.google.com/maps/dir//Rod.+Geraldo+Sart%C3%B3rio,+Esp%C3%ADrito+Santo/@-20.4231347,-41.0442029,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0xb9992f0d689f63:0xfea949ae78f44304!2m2!1d-41.0420142!2d-20.4231397",
       coordenadas: {
-        longitude: -20.4231347,
-        latitude: -41.0442029,
+        longitude: -20.4083182,
+        latitude: -41.0558614,
       },
     },
          {
@@ -87,8 +87,8 @@ data({
       observacao: "Shopping",
       rota: "https://www.google.com/maps/dir//BR-356,+2500+-+Santa+L%C3%BAcia,+Belo+Horizonte+-+MG,+30320-901/@-19.9742624,-43.9467616,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0xa697f7f1555555:0x8088c7bf3fedc634!2m2!1d-43.9445729!2d-19.9742624",
       coordenadas: {
-        longitude: -19.963207,
-        latitude: -43.940267,
+        longitude: -19.9634234,
+        latitude: -43.9424238,
       },
     },
         {
@@ -100,8 +100,8 @@ data({
       observacao: "Shopping",
       rota: "https://www.google.com/maps/dir//Av.+Princesa+Diana,+Nova+Lima+-+MG/@-20.1671218,-43.9483584,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0xa6b03749b6cc69:0x74390e54b9f69d12!2m2!1d-43.9461697!2d-20.1671268",
       coordenadas: {
-        longitude: -20.1671218,
-        latitude: -43.9483584,
+        longitude: -20.161135,
+        latitude: -43.9560332,
       },
     },
     {
@@ -113,8 +113,8 @@ data({
       observacao: "Hotel",
       rota: "https://www.google.com/maps/dir//Av.+Gov.+Israel+Pinheiro,+670,+Tiradentes+-+MG,+36325-000/@-21.1280198,-44.1733059,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0xa1c0b2df29634f:0x20c575ff95a4142e!2m2!1d-44.1711172!2d-21.1280248",
       coordenadas: {
-        longitude: -21.127335,
-        latitude: -44.171995,
+        longitude: -21.1264265,
+        latitude: -44.1730513,
       },
 
     },
@@ -127,8 +127,8 @@ data({
       observacao: "Hotel",
       rota: "https://www.google.com/maps/dir/-22.9401139,-43.1911728/R.+Morro+do+Humait%C3%A1,+10+-+Lot.+Triangulo+de+Buzios,+B%C3%BAzios+-+RJ,+28950-000/@-22.8223198,-43.1093972,9z/data=!3m1!4b1!4m17!1m7!3m6!1s0x96550b12c932c9:0x992b12233183912b!2sR.+Morro+do+Humait%C3%A1,+10+-+Lot.+Triangulo+de+Buzios,+B%C3%BAzios+-+RJ,+28950-000!3b1!8m2!3d-22.7521839!4d-41.8836382!4m8!1m1!4e1!1m5!1m1!1s0x96550b12c932c9:0x992b12233183912b!2m2!1d-41.8836382!2d-22.7521839",
       coordenadas: {
-        longitude: -22.751956,
-        latitude: -41.883627,
+        longitude: -22.7521789,
+        latitude: -41.8858269,
       },
     },
     {
@@ -140,8 +140,8 @@ data({
       observacao: "Clube",
       rota: "https://www.google.com/maps/dir//Av.+Gen.+Mois%C3%A9s+Castelo+Branco+Filho,+700+-+Barra+da+Tijuca,+Rio+de+Janeiro+-+RJ,+22793-365/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x9bdb78933eb073:0x739a9f748f2d62af?sa=X&ved=2ahUKEwi_v5-gp9rsAhW4GLkGHcBZC2cQwwUwAHoECAsQAw",
       coordenadas: {
-        longitude: -23.003805,
-        latitude: -43.40044,
+        longitude: -23.0088492,
+        latitude: -43.4061609,
       },
     },
     {
@@ -153,8 +153,8 @@ data({
       observacao: "Marina",
        rota: "https://www.google.com/maps/dir//Av.+Infante+Dom+Henrique,+3+-+Flamengo,+Rio+de+Janeiro+-+RJ/@-22.9435753,-43.1763504,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x9980207e08a14d:0x52887537b6c9d529!2m2!1d-43.1741617!2d-22.9435753",
       coordenadas: {
-        longitude: -22.9435753,
-        latitude: -43.1763504,
+        longitude: -22.9198847,
+        latitude: -43.1722729,
       },
     },
         {
@@ -166,8 +166,8 @@ data({
       observacao: "Clube",
        rota: "https://www.google.com/maps/dir//Av.+Pasteur,+333+-+Urca,+Rio+de+Janeiro+-+RJ,+22290-250/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x99801d8c435df7:0xb12984ab1fbf3f0e?sa=X&ved=2ahUKEwiwy8Gsp9rsAhWXK7kGHRdYBjcQwwUwAHoECA4QAg",
       coordenadas: {
-        longitude: -22.951303,
-        latitude: -43.173217,
+        longitude: -22.951891,
+        latitude: -43.1760616,
       },
     },
             {
@@ -179,8 +179,8 @@ data({
       observacao: "Hotel",
        rota: "https://www.google.com/maps/dir//R.+Ant%C3%B4nio+da+Silva,+300,+Teres%C3%B3polis+-+RJ,+90020-150/@-22.3873001,-42.8604069,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x9835fbc37444b7:0xa23821e88c5aef06!2m2!1d-42.8582182!2d-22.3873001",
       coordenadas: {
-        longitude: -22.387300,
-        latitude: -42.8604069,
+        longitude: -22.3848572,
+        latitude: -42.8589941,
       },
     },
     {
@@ -205,8 +205,8 @@ data({
       observacao: "Hotel",
        rota: "https://www.google.com/maps/dir//Av.+das+Na%C3%A7%C3%B5es+Unidas,+13301+-+Cidade+Mon%C3%A7%C3%B5es,+S%C3%A3o+Paulo+-+SP,+04575-000/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x94ce50cd28af6fa1:0xa7e923048cc4b3be?sa=X&ved=2ahUKEwiKm_nHp9rsAhUsDrkGHRQsAxgQwwUwAHoECAsQAg",
       coordenadas: {
-        longitude: -23.616234,
-        latitude: -46.698814,
+        longitude: -23.616217,
+        latitude: -46.7005421,
       },
     },
     {
@@ -218,8 +218,8 @@ data({
       observacao: "Entretenimento",
         rota: "https://www.google.com/maps/dir/-22.9401033,-43.1911669/Pra%C3%A7a+J%C3%BAlio+Prestes,+16+-+Campos+El%C3%ADseos,+S%C3%A3o+Paulo+-+SP,+01218-020/@-22.9783497,-47.4908632,7z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x94ce585c8d61e5f7:0xc37392c860230ea!2m2!1d-46.6397597!2d-23.534622",
       coordenadas: {
-        longitude: -23.533948,
-        latitude: -46.639693,
+        longitude: -23.534199,
+        latitude: -46.6419571,
       },
     },
     {
@@ -231,8 +231,8 @@ data({
       observacao: "Carregador no Valet",
         rota: "https://www.google.com/maps/dir//Av.+das+Na%C3%A7%C3%B5es+Unidas,+14261+-+Vila+Gertrudes,+S%C3%A3o+Paulo+-+SP,+04794-000/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x94ce51446aba18eb:0xc4ddd731450221?sa=X&ved=2ahUKEwiz2d3rp9rsAhVAIbkGHerGCO4QwwUwAHoECAsQAg",
       coordenadas: {
-        longitude: -23.623575,
-        latitude: -46.701978,
+        longitude: -23.6233119,
+        latitude: -46.7048731,
       },
     },
     {
@@ -244,7 +244,7 @@ data({
       observacao: "Hotel",
        rota: "https://www.google.com/maps/dir//Grande+Hotel+Campos+DO+Jordao+-+Av.+Frei+Orestes+Girardi,+3549,+Campos+do+Jord%C3%A3o+-+SP,+12460-000/@-22.7203598,-45.5791387,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94cc89da02a79cfb:0xdf95bc4b04f1dd90!2m2!1d-45.57695!2d-22.7203598",
       coordenadas: {
-        longitude: -22.7203598,
+        longitude: -22.7203548,
         latitude: -45.5791387,
       },
     },
@@ -257,8 +257,8 @@ data({
       observacao: "Hotel",
        rota: "https://www.google.com/maps/dir//R.+Tut%C3%B3ia,+77+-+Para%C3%ADso,+S%C3%A3o+Paulo+-+SP,+04007-000/@-23.572282,-46.6553588,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94ce59c04ec631c7:0x27efd91bc8e69146!2m2!1d-46.6531701!2d-23.5722869",
       coordenadas: {
-        longitude: -23.572282,
-        latitude: -46.6553588,
+        longitude: -23.5723425,
+        latitude: -46.6552797,
       },
     },
     {
@@ -270,8 +270,8 @@ data({
       observacao: "Complexo Empresarial",
        rota: "https://www.google.com/maps/dir//eBusiness+Park+-+Av.+Emb.+Macedo+Soares,+10735+-+%C3%81gua+Branca,+S%C3%A3o+Paulo+-+SP,+05095-035/@-23.5098906,-46.7105831,18z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94cef93bfe7be6d1:0x199194b9e9594dfa!2m2!1d-46.7094888!2d-23.5098906",
       coordenadas: {
-        longitude: -23.5098906,
-        latitude: -46.7105831,
+        longitude: -23.5094646,
+        latitude: -46.7107279,
       },
     },
     {
@@ -283,8 +283,8 @@ data({
       observacao: "Hotel",
        rota: "https://www.google.com/maps/dir//Grande+Hotel+S%C3%A3o+Pedro+-+Doutor+Ot%C3%A1vio+de+Moura+Andrade+s%2Fn+Centro,+R.+Ant%C3%B4nio+Feij%C3%B3+-+Parque,+%C3%81guas+de+S%C3%A3o+Pedro+-+SP,+13525-000/@-22.5971376,-47.8847266,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c7b1731f69af01:0xcc40f34eb1fa312f!2m2!1d-47.8825379!2d-22.5971376",
       coordenadas: {
-        longitude: -22.5971376,
-        latitude: -47.8847266,
+        longitude: -22.5970429,
+        latitude: -47.8844564,
       },
     },
     {
@@ -296,8 +296,8 @@ data({
       observacao: "Restaurante",
        rota: "https://www.google.com/maps/dir/-22.9401033,-43.1911669/Vila+Don+Patto+-+Estrada+do+Vinho,+KM+2,5+-+Jardim+Villaca,+S%C3%A3o+Roque+-+SP,+18145-002/@-22.9904858,-47.4070582,7z/data=!3m1!4b1!4m16!1m6!3m5!1s0x0:0x8e4dae5825ff3ceb!2sVila+Don+Patto!8m2!3d-23.5633023!4d-47.1346533!4m8!1m1!4e1!1m5!1m1!1s0x94cf0d2b14a1006d:0x8e4dae5825ff3ceb!2m2!1d-47.1346533!2d-23.5633023",
       coordenadas: {
-        longitude: -23.563056,
-        latitude: -47.134621,
+        longitude: -23.6170584,
+        latitude: -47.4520891,
       },
     },
     {
@@ -309,8 +309,8 @@ data({
       observacao: "Hotel",
        rota: "https://www.google.com/maps/dir//Hotel+Maui+Maresias+-+R.+Passagem,+14+-+n%C2%BA+99+-+Praia+de+Maresias,+S%C3%A3o+Sebasti%C3%A3o+-+SP,+11628-115/@-23.7907563,-45.5760718,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94d280e3fd6978b7:0x596d2fc88def40c5!2m2!1d-45.5738831!2d-23.7907563",
       coordenadas: {
-        longitude: -23.7907563,
-        latitude: -45.5760718,
+        longitude: -23.7906324,
+        latitude: -45.5739206,
       },
     },
     {
@@ -322,7 +322,7 @@ data({
       observacao: "Shopping",
        rota: "https://www.google.com/maps/dir//Bourbon+Atibaia+Resort+-+Rod.+Fern%C3%A3o+Dias,+Km+37,5+-+Jardim+Boa+Vista,+Atibaia+-+SP,+12954-904/@-23.1075758,-46.5748044,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94cec134ab994565:0xf4812852378d35df!2m2!1d-46.5726157!2d-23.1075758",
       coordenadas: {
-        longitude: -23.1075758,
+        longitude: -23.1075709,
         latitude: -46.5748044,
       },
     },
@@ -335,8 +335,8 @@ data({
       observacao: "Hotel",
        rota: "https://www.google.com/maps/dir//Hotel+Hist%C3%B3rico+Fazenda+Dona+Carolina+-+Rod.+Alkindar+Monteiro+Junqueira,+s%2Fn,+Itatiba+-+SP,+13252-670/@-22.939597,-46.703015,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94ced2938bbe483d:0x34ba44f6e6864926!2m2!1d-46.7008263!2d-22.939597",
       coordenadas: {
-        longitude: -23.1075758,
-        latitude: -46.5748044,
+        longitude: -22.939592,
+        latitude: -46.703015,
       },
     },
     {
@@ -348,7 +348,7 @@ data({
       observacao: "Hotel",
        rota: "https://www.google.com/maps/dir//Pousada+Quinta+dos+Pinhais+-+Estrada+do+Pico+Agudo,+km+3+-+Sert%C3%A3ozinho+Sertaozinho,+Santo+Ant%C3%B4nio+do+Pinhal+-+SP,+12450-000/@-22.8536298,-45.6732787,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94cc612441a345c9:0xb50c94d0cf5ae127!2m2!1d-45.67109!2d-22.8536298",
       coordenadas: {
-        longitude: -22.8536298,
+        longitude: -22.8536248,
         latitude: -45.6732787,
       },
     },
@@ -361,8 +361,8 @@ data({
       observacao: "Coworking",
        rota: "https://www.google.com/maps/dir//Spaces+-+Sao+Paulo,+Spaces+Berrini+-+R.+Irm%C3%A3+Gabriela,+51+-+Cidade+Mon%C3%A7%C3%B5es,+S%C3%A3o+Paulo+-+SP,+04571-130/@-23.6047279,-46.6932898,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94ce573d8c52ec71:0x22cc7105c66221b9!2m2!1d-46.6932833!2d-23.6047343",
       coordenadas: {
-        longitude: -23.6047279,
-        latitude: -46.6932898,
+        longitude: -23.6046866,
+        latitude: -46.6956457,
       },
     },
     {
