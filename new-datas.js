@@ -192,8 +192,8 @@ data({
       observacao: "Comércio",
        rota: "https://www.google.com/maps/dir//Cal%C3%A7ada+Fl%C3%B4r+de+L%C3%B3tus,+78+-+Alphaville+Comercial,+Barueri+-+SP,+06453-002/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x94cf023a67ba9823:0x6bd5a09840f549f3?sa=X&ved=2ahUKEwjO--O2p9rsAhUlF7kGHUm_A3QQwwUwAHoECAsQAg",
       coordenadas: {
-        longitude: -23.496492,
-        latitude: -46.853245,
+        longitude: -23.4971965,
+        latitude: -46.8535091,
       },
     },
     {
