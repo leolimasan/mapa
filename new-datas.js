@@ -374,7 +374,7 @@ data({
       observacao: "Hotel",
        rota: "https://www.google.com/maps/dir//R.+Col%C3%B4mbia,+84+-+Jardim+Paulista,+S%C3%A3o+Paulo+-+SP,+01438-000/@-23.5668954,-46.6722891,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94ce59d6244b88b1:0xe8dc5049c9263684!2m2!1d-46.6701004!2d-23.5668954",
       coordenadas: {
-        longitude: -23.5668954,
+        longitude: -23.5668905,
         latitude: -46.6722891,
       },
     },
@@ -387,8 +387,8 @@ data({
       observacao: "Empreendimento",
        rota: "https://www.google.com/maps/dir//Av.+Dr.+Cardoso+de+Melo,+699+-+Vila+Ol%C3%ADmpia,+S%C3%A3o+Paulo+-+SP,+04548-003/@-23.6003734,-46.6830075,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94ce574d709a4e21:0x9f788490519f8560!2m2!1d-46.6808188!2d-23.6003734",
       coordenadas: {
-        longitude: -23.6003734,
-        latitude: -46.6830075,
+        longitude: -23.6003842,
+        latitude: -46.6831317,
       },
     },
     {
@@ -400,8 +400,8 @@ data({
       observacao: "Hotel",
        rota: "https://www.google.com/maps/dir//GRAND+RESORT+SERRA+NEGRA+-+Rua+Comendador+Vicente,+Amato+Sobrinho,+390+-+Placidol%C3%A2ndia,+Serra+Negra+-+SP,+13930-000/@-22.6119651,-46.7138977,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c9188675164001:0x79646d99ee22a1ce!2m2!1d-46.7138977!2d-22.6119651",
       coordenadas: {
-        longitude: -22.6119651,
-        latitude: -46.7138977,
+        longitude: -22.6119601,
+        latitude: -46.7160864,
       },
     },
     {
@@ -413,8 +413,8 @@ data({
       observacao: "Hotel",
        rota: "https://www.google.com/maps/dir//R.+Manoel+Soares+da+Silva,+755+-+Praia+do+Itamambuca,+Ubatuba+-+SP,+11680-000/@-23.4029865,-45.0163678,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94cd52beac4d3add:0xcf5a328437971b4d!2m2!1d-45.0136989!2d-23.4032137",
       coordenadas: {
-        longitude: -23.4029865,
-        latitude: -45.0163678,
+        longitude: -23.4030308,
+        latitude: -45.0161629,
       },
     },
     {
@@ -426,8 +426,8 @@ data({
       observacao: "Hotel",
        rota: "https://www.google.com/maps/dir//Zagaia+Eco+Resort+-+Rodovia+Bonito+Morros+3,+3,+Morros+-+MS,+79290-000/@-21.109918,-56.517364,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x947c5f31030af15f:0x276124f8fd8ac965!2m2!1d-56.517364!2d-21.109918",
       coordenadas: {
-        longitude: -21.109918,
-        latitude: -56.517364,
+        longitude: -21.109913,
+        latitude: -56.5195527,
       },
     },
     {
@@ -439,8 +439,8 @@ data({
       observacao: "Hotel",
        rota: "https://www.google.com/maps/dir//R.+Manoel+In%C3%A1cio+de+Souza,+417+-+Centro,+Campo+Grande+-+MS,+79020-220/@-20.4551147,-54.6011275,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x9486e89a0ea3f1ff:0x472c4ff48485597b!2m2!1d-54.5989576!2d-20.4550151",
       coordenadas: {
-        longitude: -20.4551147,
-        latitude: -54.6011275,
+        longitude: -20.4552477,
+        latitude: -54.6010565,
       },
     },
     {
@@ -452,8 +452,8 @@ data({
       observacao: "Hotel",
        rota: "https://www.google.com/maps/dir//Av.+Mato+Grosso,+4250+-+Centro,+Campo+Grande+-+MS,+79031-001/@-20.4498667,-54.5817876,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x9486e8eee3e6eb03:0x5f78ce61428aae21!2m2!1d-54.5795989!2d-20.4498667",
       coordenadas: {
-        longitude: -20.4498667,
-        latitude: -54.5817876,
+        longitude: -20.4500877,
+        latitude: -54.5804624,
       },
     },
     {
@@ -465,8 +465,8 @@ data({
       observacao: "Shopping",
        rota: "https://www.google.com/maps/dir//Av.+Afonso+Pena,+4909+-+Cidade+Jardim,+Campo+Grande+-+MS,+79031-010/@-20.4576625,-54.5900959,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x9486e8eaad49a297:0x7ea6e13e854722fc!2m2!1d-54.5879072!2d-20.4576625",
       coordenadas: {
-        longitude: -20.4576625,
-        latitude: -54.5900959,
+        longitude: -20.4577076,
+        latitude: -54.5901387,
       },
     },
     {
@@ -478,8 +478,8 @@ data({
       observacao: "Condomínio",
        rota: "https://www.google.com/maps/dir//Av.+Afonso+Pena,+5723+-+Ch%C3%A1cara+Cachoeira,+Campo+Grande+-+MS,+79031-010/@-20.4577488,-54.5848247,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x9486e8c1fb13f059:0x5307ba87f3dcd828!2m2!1d-54.582636!2d-20.4577488",
       coordenadas: {
-        longitude: -20.4577488,
-        latitude: -54.5848247,
+        longitude: -20.4588238,
+        latitude: -54.6326261,
       },
     },
     {
@@ -491,8 +491,8 @@ data({
       observacao: "Hotel",
        rota: "https://www.google.com/maps/dir//Four+Points+by+Sheraton+Curitiba+-+Av.+Sete+de+Setembro,+4211+-+%C3%81gua+Verde,+Curitiba+-+PR,+80250-210/@-25.442768,-49.279137,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94dce47752432af3:0x1569ac2111587a86!2m2!1d-49.279137!2d-25.442768",
       coordenadas: {
-        longitude: -25.442535,
-        latitude: -49.279137,
+        longitude: -25.4427631,
+        latitude: -49.2813257,
       },
     },
     {
@@ -504,8 +504,8 @@ data({
       observacao: "Supermercado",
        rota: "https://www.google.com/maps/dir//BR-356,+2500+-+Santa+L%C3%BAcia,+Belo+Horizonte+-+MG,+30320-901/@-19.9742624,-43.9467616,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0xa697f7f1555555:0x8088c7bf3fedc634!2m2!1d-43.9445729!2d-19.9742624",
       coordenadas: {
-        longitude: -25.427324,
-        latitude: -49.284495,
+        longitude: -25.4275807,
+        latitude: -49.2867155,
       },
     },
     {
@@ -517,8 +517,8 @@ data({
       observacao: "Mercado",
        rota: "https://www.google.com/maps/dir/-22.9400852,-43.1911571/Rua+Jaguaria%C3%ADva,+92+-+Alphaville+Graciosa,+Pinhais+-+PR,+83327-076/@-23.8562689,-50.669312,6z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x94dcef21b208e451:0xa3c50cb8536cbc48!2m2!1d-49.165397!2d-25.393437",
       coordenadas: {
-        longitude: -25.392892,
-        latitude: -49.16585,
+        longitude: -25.3931492,
+        latitude: -49.1680174,
       },
     },
      {
@@ -530,8 +530,8 @@ data({
       observacao: "Shopping",
        rota: "https://www.google.com/maps/dir/-22.9400852,-43.1911571/Rua+Jaguaria%C3%ADva,+92+-+Alphaville+Graciosa,+Pinhais+-+PR,+83327-076/@-23.8562689,-50.669312,6z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x94dcef21b208e451:0xa3c50cb8536cbc48!2m2!1d-49.165397!2d-25.393437",
       coordenadas: {
-        longitude: -23.8562689,
-        latitude: -50.669312,
+        longitude: -25.4286671,
+        latitude: -49.2169335,
       },
     },
     {
@@ -543,8 +543,8 @@ data({
       observacao: "Hotel",
        rota: "https://www.google.com/maps/dir//Estr.+Ver.+Onildo+Lemos,+Florian%C3%B3polis+-+SC,+88058-700/@-27.4537998,-48.382715,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x95276a6a69aaac03:0x5c598b5a1f933995!2m2!1d-48.3805263!2d-27.4537998",
       coordenadas: {
-        longitude: -27.464493,
-        latitude: -48.381264,
+        longitude: -27.4647355,
+        latitude: -48.3834315,
       },
     },
     {
@@ -556,21 +556,8 @@ data({
       observacao: "Shopping",
         rota: "https://www.google.com/maps/dir/-22.9400911,-43.1911315/R.+Bocai%C3%BAva,+2468+-+Centro,+Florian%C3%B3polis+-+SC,+88015-530/@-24.958904,-50.6782335,6z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x95273816b757726f:0xd81d55d6572585f5!2m2!1d-48.5450085!2d-27.5849156",
       coordenadas: {
-        longitude: -27.584662,
-        latitude: -48.544971,
-      },
-    },
-    {
-      regiao: "Sul",
-      estado: "Santa Catarina",
-      nome: "Florianópolis",
-      local: "Shopping Beira Mar",
-      endereco: "R. Bocaiúva, 2468",
-      observacao: "Shopping",
-        rota: "https://www.google.com/maps/dir/-22.9400911,-43.1911315/R.+Bocai%C3%BAva,+2468+-+Centro,+Florian%C3%B3polis+-+SC,+88015-530/@-24.958904,-50.6782335,6z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x95273816b757726f:0xd81d55d6572585f5!2m2!1d-48.5450085!2d-27.5849156",
-      coordenadas: {
-        longitude: -27.584662,
-        latitude: -48.544971,
+        longitude:-27.5852115,
+        latitude: -48.5475331,
       },
     },
     {
@@ -582,8 +569,8 @@ data({
       observacao: "Shopping",
         rota: "https://www.google.com/maps/dir//Rod.+Virg%C3%ADlio+V%C3%A1rzea,+587+-+Saco+Grande,+Florian%C3%B3polis+-+SC,+88054-605/@-27.5538481,-48.5007191,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x952738a1b33393cf:0xb85611bf093ea949!2m2!1d-48.4985304!2d-27.5538529",
       coordenadas: {
-        longitude: -27.5538481,
-        latitude: -48.5007191,
+        longitude: -27.5539395,
+        latitude: -48.4985287,
       },
     },
     {
@@ -595,8 +582,8 @@ data({
       observacao: "Hotel",
         rota: "https://www.google.com/maps/dir//Infinity+Blue+Resort+%26+Spa+-+Av.+Ruy+Barbosa,+1000+-+Praia+dos+Amores,+Balne%C3%A1rio+Cambori%C3%BA+-+SC,+88331-510/@-26.9669616,-48.6314983,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94d8c9f230ae6ac1:0x74688c8530afb465!2m2!1d-48.6293096!2d-26.9669616",
       coordenadas: {
-        longitude: -26.9669616,
-        latitude: -48.6314983,
+        longitude:-26.9669616,
+        latitude: -48.6293096,
       },
     },
     {
@@ -608,8 +595,8 @@ data({
       observacao: "Shopping",
         rota: "https://www.google.com/maps/dir//Av.+Pres.+Vargas,+1610+-+S%C3%A3o+Cristovao,+Passo+Fundo+-+RS,+99070-000/@-28.2710284,-52.3876476,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94e2bf95a932fc15:0xae6070a80020ffc1!2m2!1d-52.3854589!2d-28.2710284",
       coordenadas: {
-        longitude: -28.2710284,
-        latitude: -52.3876476,
+        longitude: -28.2715604,
+        latitude: -52.3880884,
       },
     },
     {
@@ -621,7 +608,7 @@ data({
       observacao: "Shopping",
         rota: "https://www.google.com/maps/dir//R.+24+de+Outubro,+1454a+-+Auxiliadora,+Porto+Alegre+-+RS,+90510-001/@-30.0219085,-51.1966162,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x951979ced83e87fb:0x8dd860e77d4f8cb8!2m2!1d-51.1944275!2d-30.0219085",
       coordenadas: {
-        longitude: -30.0219085,
+        longitude: -30.0219038,
         latitude: -51.1966162,
       },
     },
