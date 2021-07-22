@@ -588,6 +588,19 @@ data({
     },
     {
       regiao: "Sul",
+      estado: "Santa Catarina",
+      nome: "Florianópolis",
+      local: "SC Square Open Mall",
+      endereco: "Rod. José Carlos Daux 5.500",
+      observacao: "Shopping",
+        rota: "https://www.google.com/maps/dir//Square,+Square+Corporate+-+Rod.+Jos%C3%A9+Carlos+Daux,+5500+-+Saco+Grande,+Florian%C3%B3polis+-+SC,+88032-005/@-27.5346491,-48.5093949,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x9527470d7aaf826b:0x4d3572e8bdd0a188!2m2!1d-48.5093949!2d-27.5346491",
+      coordenadas: {
+        longitude: -27.5346491,
+        latitude: -48.5093949,
+      },
+    },
+    {
+      regiao: "Sul",
       estado: "Rio Grande do Sul",
       nome: "Passo Fundo",
       local: "Shopping Passo Fundo",
