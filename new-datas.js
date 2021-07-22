@@ -91,6 +91,32 @@ data({
         latitude: -43.9424238,
       },
     },
+    {
+      regiao: "Sudeste",
+      estado: "Minas Gerais",
+      nome: "Belo Horizonte",
+      local: "Shopping Diamond Mall",
+      endereco: "Av. Olegário Maciel, n.º 1600",
+      observacao: "Shopping",
+      rota: "https://www.google.com/maps/dir//DiamondMall+-+Av.+Oleg%C3%A1rio+Maciel,+1600+-+Santo+Agostinho,+Belo+Horizonte+-+MG,+30180-915/@-19.9279851,-43.9474041,15z/data=!4m16!1m6!3m5!1s0x0:0x57d9ceae8b8dbb39!2sDiamondMall!8m2!3d-19.9279851!4d-43.9474041!4m8!1m1!4e2!1m5!1m1!1s0xa69760ed721583:0x57d9ceae8b8dbb39!2m2!1d-43.9474041!2d-19.9279851",
+      coordenadas: {
+        longitude: -19.9279851,
+        latitude: -43.9474041,
+      },
+    },
+    {
+      regiao: "Centro Oeste",
+      estado: "Brasília",
+      nome: "Distrito Federal",
+      local: "Park Shopping Brasília",
+      endereco: "SAI/SO Área 6580, s/n",
+      observacao: "Shopping",
+      rota: "https://www.google.com/maps/dir//ParkShopping+-+Bras%C3%ADlia+-+SAI%2FSO+%C3%81rea+6580,+s%2Fn,+SAI%2FSO+%C3%81rea,+6580+-+Guar%C3%A1,+Bras%C3%ADlia+-+DF,+71219-900/@-15.8337976,-47.9553688,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x935a3029eaad68b7:0xc4985755bc8593cc!2m2!1d-47.9553688!2d-15.8337976",
+      coordenadas: {
+        longitude: -15.8337976,
+        latitude: -47.9553688,
+      },
+    },
         {
       regiao: "Sudeste",
       estado: "Minas Gerais",
