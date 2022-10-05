@@ -92,19 +92,6 @@ data({
       },
     },
     {
-      regiao: "Sudeste",
-      estado: "Minas Gerais",
-      nome: "Belo Horizonte",
-      local: "Shopping Diamond Mall",
-      endereco: "Av. Olegário Maciel, n.º 1600",
-      observacao: "Shopping",
-      rota: "https://www.google.com/maps/dir//DiamondMall+-+Av.+Oleg%C3%A1rio+Maciel,+1600+-+Santo+Agostinho,+Belo+Horizonte+-+MG,+30180-915/@-19.9279851,-43.9474041,15z/data=!4m16!1m6!3m5!1s0x0:0x57d9ceae8b8dbb39!2sDiamondMall!8m2!3d-19.9279851!4d-43.9474041!4m8!1m1!4e2!1m5!1m1!1s0xa69760ed721583:0x57d9ceae8b8dbb39!2m2!1d-43.9474041!2d-19.9279851",
-      coordenadas: {
-        longitude: -19.9279851,
-        latitude: -43.9474041,
-      },
-    },
-    {
       regiao: "Centro Oeste",
       estado: "Brasília",
       nome: "Distrito Federal",
@@ -618,13 +605,13 @@ data({
       regiao: "Sul",
       estado: "Paraná",
       nome: "Curitiba",
-      local: "Shopping Barigui",
-      endereco: "Rua Prof. Pedro Viriato Parigot de Souza, 600",
+      local: "Shopping Palladium Ponta Grossa",
+      endereco: "Rua Marechal Deodoro, 869 - 19º Andar",
       observacao: "Shopping",
-       rota: "https://www.google.com/maps/dir//ParkShoppingBarig%C3%BCi+-+R.+Prof.+Pedro+Viriato+Parigot+de+Souza,+600+-+Mossungu%C3%AA,+Curitiba+-+PR,+81200-100/@-25.4355005,-49.3159894,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94dce3d049f6550f:0x1c5a176a37a77a48!2m2!1d-49.3159894!2d-25.4355005",
+       rota: "https://www.google.com/maps/dir//R.+Mal.+Deodoro,+869+-+19%C2%BA+Andar+-+Centro,+Curitiba+-+PR,+80060-010/@-25.4289218,-49.2665508,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x94dce46aa6476acd:0x88dc9edbe090d0a0!2m2!1d-49.2643621!2d-25.4289218!3e0",
       coordenadas: {
-        longitude: -25.4355005,
-        latitude: -49.3159894,
+        longitude: -25.4289218,
+        latitude: -49.2665508,
       },
     },
     {
@@ -664,6 +651,32 @@ data({
       coordenadas: {
         longitude: -25.4286671,
         latitude: -49.2169335,
+      },
+    },
+    {
+      regiao: "Sul",
+      estado: "Paraná",
+      nome: "Londrina",
+      local: "Restaurante Strassberg",
+      endereco: "Rod. Celso Garcia Cid, s/n Km 401",
+      observacao: "Restaurante",
+       rota: "https://www.google.com/maps/dir//Rod.+Celso+Garcia+Cid+-+Londrina,+PR/@-23.3390879,-51.1853826,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x94eb5cb62231c53f:0xb2424483fc1deb10!2m2!1d-51.1831939!2d-23.3390879!3e0",
+      coordenadas: {
+        longitude: -23.3390879,
+        latitude: -51.1853826,
+      },
+    },
+    {
+      regiao: "Sul",
+      estado: "Paraná",
+      nome: "Tibagi",
+      local: "Parada do Pão de Queijo",
+      endereco: "ROD BR 376 S/N, KM 458",
+      observacao: "Restaurante",
+       rota: "https://www.google.com/maps/dir//Parada+do+P%C3%A3o+de+Queijo+-+BR-376,+Km+458+s%2Fn+-+Col%C3%B4nia,+Tibagi+-+PR,+84300-000/@-24.9362228,-50.4059515,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x94e84646bc498989:0x626fe301a5b36155!2m2!1d-50.4037628!2d-24.9362277!3e0",
+      coordenadas: {
+        longitude: -24.9362228,
+        latitude: -50.4059515,
       },
     },
     {
