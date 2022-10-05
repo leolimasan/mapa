@@ -174,32 +174,6 @@ data({
       regiao: "Sudeste",
       estado: "Rio de Janeiro",
       nome: "Rio de Janeiro",
-      local: "Shopping Village Mall",
-      endereco: "Av. das Américas, 3900 - Barra da Tijuca",
-      observacao: "Shopping",
-      rota: "https://www.google.com/maps/dir/-22.9401449,-43.191288/VillageMall+-+Av.+das+Am%C3%A9ricas,+3900+-+Barra+da+Tijuca,+Rio+de+Janeiro+-+RJ,+22640-102/@-22.9984349,-43.3512508,15z/data=!4m16!1m6!3m5!1s0x0:0x72bf7426a75e96f4!2sVillageMall!8m2!3d-22.9984349!4d-43.3512508!4m8!1m1!4e1!1m5!1m1!1s0x9bda3f82d2ace7:0x72bf7426a75e96f4!2m2!1d-43.3512508!2d-22.9984349",
-      coordenadas: {
-        longitude: -22.9984349,
-        latitude: -43.3512508,
-      },
-    },
-    {
-      regiao: "Sudeste",
-      estado: "Rio de Janeiro",
-      nome: "Rio de Janeiro",
-      local: "Barra Shopping",
-      endereco: "Av. das Américas, 3900 - Barra da Tijuca",
-      observacao: "Shopping",
-      rota: "https://www.google.com/maps/dir/-22.9401045,-43.1912602/Barra+Shopping+-+Av.+das+Am%C3%A9ricas,+n%C2%BA+4666+-+Barra+da+Tijuca,+Rio+de+Janeiro+-+RJ,+22640-102/@-22.9363723,-43.4118568,11z/data=!3m1!4b1!4m16!1m6!3m5!1s0x0:0xa7dd934e3fdd28bf!2sBarra+Shopping!8m2!3d-22.9983841!4d-43.3574623!4m8!1m1!4e1!1m5!1m1!1s0x9bda482f3cf5b5:0xa7dd934e3fdd28bf!2m2!1d-43.3574623!2d-22.9983841",
-      coordenadas: {
-        longitude: -22.9401045,
-        latitude: -43.1912602,
-      },
-    },
-    {
-      regiao: "Sudeste",
-      estado: "Rio de Janeiro",
-      nome: "Rio de Janeiro",
       local: "Campo Olímpico de Golfe",
       endereco: "Av. Gen. Moisés Castelo Branco Filho, 700",
       observacao: "Clube",
@@ -339,32 +313,6 @@ data({
       coordenadas: {
         longitude: -23.5723425,
         latitude: -46.6552797,
-      },
-    },
-    {
-      regiao: "Sudeste",
-      estado: "São Paulo",
-      nome: "São Paulo",
-      local: "Shopping Anália Franco",
-      endereco: "Av. Regente Feijó, 1739",
-      observacao: "Shopping",
-       rota: "https://www.google.com/maps/dir/-22.9401637,-43.191284/Av.+Regente+Feij%C3%B3,+1739+Sao+Paulo/@-22.9896341,-47.1528004,7z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x94ce5e820dde705d:0x5d9ada76950fa481!2m2!1d-46.560666!2d-23.5614832",
-      coordenadas: {
-        longitude: -22.9896341,
-        latitude: -47.1528004,
-      },
-    },
-    {
-      regiao: "Sudeste",
-      estado: "São Paulo",
-      nome: "São Paulo",
-      local: "Shopping Morumbi",
-      endereco: "Av. Roque Petroni Junior, 1089",
-      observacao: "Shopping",
-       rota: "https://www.google.com/maps/dir/-22.9401637,-43.191284/Av.+Roque+Petroni+J%C3%BAnior,+1089+-+Vila+Gertrudes,+S%C3%A3o+Paulo+-+SP,+04707-000/@-23.0222474,-47.2108526,7z/data=!3m1!4b1!4m17!1m7!3m6!1s0x94ce50951d00bd99:0x52cdd65ffdfd321c!2sAv.+Roque+Petroni+J%C3%BAnior,+1089+-+Vila+Gertrudes,+S%C3%A3o+Paulo+-+SP,+04707-000!3b1!8m2!3d-23.6262312!4d-46.6881882!4m8!1m1!4e1!1m5!1m1!1s0x94ce50951d00bd99:0x52cdd65ffdfd321c!2m2!1d-46.6881882!2d-23.6262312",
-      coordenadas: {
-        longitude: -23.0222474,
-        latitude: -47.2108526,
       },
     },
     {
@@ -755,19 +703,6 @@ data({
       coordenadas: {
         longitude: -28.2715604,
         latitude: -52.3880884,
-      },
-    },
-    {
-      regiao: "Sul",
-      estado: "Rio Grande do Sul",
-      nome: "Porto Alegre",
-      local: "Barra Shopping Sul",
-      endereco: "Avenida Diário de Notícias, 300",
-      observacao: "Shopping",
-        rota: "https://www.google.com/maps/dir//Av.+Di%C3%A1rio+de+Not%C3%ADcias,+300+-+Cristal,+Porto+Alegre+-+RS,+90810-080/@-30.0846697,-51.2480271,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x951978a0f3d65ec3:0x60213d8b1f0e22de!2m2!1d-51.2458384!2d-30.0846697",
-      coordenadas: {
-        longitude: -30.0846697,
-        latitude: -51.2480271,
       },
     },
     {
