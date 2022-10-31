@@ -258,8 +258,8 @@ data({
       observacao: "CT",
        rota: "https://www.google.com/maps/dir/-22.9400827,-43.1912874/R.+%C3%81frica+do+Sul,+349+-+V%C3%A1rzea+de+Baixo,+S%C3%A3o+Paulo+-+SP,+04730-020/@-23.036646,-47.210852,7z/data=!3m1!4b1!4m17!1m7!3m6!1s0x94ce51116ef3c10d:0x3dfc37c7a99b7ac2!2sR.+%C3%81frica+do+Sul,+349+-+V%C3%A1rzea+de+Baixo,+S%C3%A3o+Paulo+-+SP,+04730-020!3b1!8m2!3d-23.6423702!4d-46.7228635!4m8!1m1!4e1!1m5!1m1!1s0x94ce51116ef3c10d:0x3dfc37c7a99b7ac2!2m2!1d-46.7228635!2d-23.6423702",
       coordenadas: {
-        longitude: -23.036646,
-        latitude: -47.210852,
+        longitude: -22.9400827,
+        latitude: -43.1912874,
       },
     },
     
